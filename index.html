@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Codux</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">COD<span>UX</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navivation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                <ul class="primary-nav">
+                    <li class="current"><a href="#SEP">SEP</a></li>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#Kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">SEP-2022 HS Mannheim</p>
+                <h1>Codux der beste Team</h1>
+
+                <div class="hero-ctg">
+                    <a href="#Team" class="primary-cta">Team CODUX</a>
+                </div>
+            </div>
+            
+            <img src="images/LogoCodux2.png" class="hero-img" alt="Illustration">
+        </div>
+        <div id="SEP"></div>
+    </section>
+
+    
+    <section class="features-section-SEP">
+        <div class="container">
+            <h1 id="SEP-h1">Software-Engineering Project</h1>
+           <a id="SEP-text">Wir sind das Team Codux</a>
+        </div>
+    </section>
+    
+    <div id="Team"></div>
+    <section class="testimonials-section">
+        <h1 id="ux">Informatiker</h1>
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/people/Andreas_SEP.jpg" alt="person">
+                    <blockquote>"Jeder kriegt die Chance erfolgreich zu sein. Nicht jeder nimmt sie jedoch wahr."</blockquote>
+                    <a>-Andreas Tide</a>
+                    <br>
+                    <p>Email:<br>2010953@stud.hs-mannheim.de</p>
+                </li>
+                <li>
+                    <img src="images/people/Aaron_SEP.jpg" alt="person">
+                    <blockquote>"Lieber nachlegen als hinlegen"</blockquote>
+                    <a>-Aaron Butz</a>
+                    <br>
+                    <p>Email:<br>2021662@stud.hs-mannheim.de</p>
+                </li>
+                <li>
+                    <img src="images/people/Beni_SEP.jpg" alt="person">
+                    <blockquote>"Auf der Welt hier ist Beständigkeit vergänglich, nur Vergänglichkeit beständig"</blockquote>
+                    <a>-Benjamin Löffler</a>
+                    <br>
+                    <p>Email:<br>1911374@stud.hs-mannheim.de</p>
+                </li>
+                <li>
+                    <img src="images/people/Slaven_SEP.jpg" alt="person">
+                    <blockquote>"Before you marry a person, you should first make them use a computer with slow Internet to see who they really are"</blockquote>
+                    <a>-Slaven Džinić</a>
+                    <br>
+                    <p>Email:<br>2024216@stud.hs-mannheim.de</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="testimonials-section">
+        <h1 id="ux2">Designer</h1>
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/people/Sanja_SEP.jpg" alt="person">
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <a>-Sanja Schleicher</a>
+                    <br>
+                    <p>Email:<br>2020411@stud.hs-mannheim.de</p>
+                </li>
+                <li>
+                    <img src="images/people/Gizem_SEP.jpg" alt="person">
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <a>-Gizem Ipek</a>
+                    <br>
+                    <p>Email:<br>2010429@stud.hs-mannheim.de</p>
+                </li>
+                <li>
+                    <img src="images/people/Paula_SEP.jpg" alt="person">
+                    <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <a>-Paula Groth</a>
+                    <br>
+                    <p>Email:<br>2020435@stud.hs-mannheim.de</p>
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <div id="Kontakt"></div>
+    <section class="features-section">
+        <div class="container">
+            <h1>Kontakt</h1>
+            <ul  class="features-list">
+                <li>CODUX Email: <span>codux@gmz.de</span></li>
+                <li>Scrum Master:<span>Andreas Tide</span></li>
+                <li>Produkt Owner:<span>Aaron Butz</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelector('nav');
+            mobileBtnExit = document.getElementById('mobile-exit');
+        
+        mobileBtn.addEventListener('click', () => { 
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => { 
+            nav.classList.remove('menu-btn');
+        })
+
+    </script>
+
+</body>
+</html>
