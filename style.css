@@ -2,8 +2,8 @@
 :root {
   /*--primary-color: rgb(223, 27, 27);
   --primary-color2: rgb(195, 17, 17);*/
-  --primary-color2: #778CA1;
-  --primary-color: rgb(48, 117, 150);
+  --primary-color: #778CA1;
+  --primary-color2: rgb(48, 117, 150);
 }
 
 body {
@@ -161,12 +161,12 @@ ul.features-list li:before {
   padding: 0.5em;
 }
 .testimonials-section {
-  background: var(--primary-color2);
+  background: var(--primary-color);
   color: white;
 }
 
 .testimonials-section ul li {
-  background: var(--primary-color);
+  background: var(--primary-color2);
   text-align: center;
   padding: 3em 1em;
   width: 80%;
@@ -177,7 +177,7 @@ ul.features-list li:before {
 .testimonials-section ul li img {
   width: 7em;
   height: 7em;
-  border: 5px solid var(--primary-color);
+  border: 5px solid var(--primary-color2);
   border-radius: 50%;
   margin-top: -7em;
 }
@@ -250,7 +250,7 @@ nav li a {
 }
 
 .features-section div h1{
-  color: var(--primary-color);
+  color: var(--primary-color2);
   margin-top: -2em;
   margin-left: 1em;
   font-size: 2em;
@@ -389,7 +389,7 @@ nav li a {
     position: absolute;
     width: 10%;
     height: 20em;
-    background: var(--primary-color);
+    background: var(--primary-color2);
     left: 0;
     top: -4em;
   }
@@ -408,7 +408,7 @@ nav li a {
     position: absolute;
     width: 10%;
     height: 20em;
-    background: var(--primary-color);
+    background: var(--primary-color2);
     left: 0;
     top: -4em;
   }
@@ -426,7 +426,7 @@ nav li a {
     position: absolute;
     width: 11%;
     height: 20em;
-    background: var(--primary-color);
+    background: var(--primary-color2);
     right: 0;
     top: 70em;
   }
@@ -435,7 +435,7 @@ nav li a {
     position: absolute;
     width: 11%;
     height: 20em;
-    background: var(--primary-color);
+    background: var(--primary-color2);
     right: 0;
     top: 9em;
   }
