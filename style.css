@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color: rgb(223, 27, 27);
-  --primary-color2: rgb(195, 17, 17);
+  /*--primary-color: rgb(223, 27, 27);
+  --primary-color2: rgb(195, 17, 17);*/
+  --primary-color2: #778CA1;
+  --primary-color: rgb(48, 117, 150);
 }
 
 body {
@@ -373,8 +375,9 @@ nav li a {
     font-size: 2em;
   }
   #textContainer{
+    position: relative;
     margin-top: -7em;
-    margin-left: -16em;
+    margin-left: -8em;
   }
 
 }
